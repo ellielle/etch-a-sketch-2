@@ -93,4 +93,4 @@ fabric.properties
 .idea/modules.xml
 .idea/vcs.xml
 .idea/watcherTasks.xml
-!/.gitignore
+/.gitignore
