@@ -1,0 +1,29 @@
+.container {
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+}
+
+.grid-container {
+  margin: 60px auto 0 auto;
+  height: 600px;
+  width: 600px;
+  place-content: center;
+  display: grid;
+  grid-template-columns: repeat(16, 16fr);
+  grid-gap: 0;
+  grid-template-rows: repeat(16, 16fr);
+}
+
+.game-grid, .grid-container {
+  border-style: solid;
+  border-width: 1px;
+}
+
+aside {
+  float: left;
+}
+
+.menu {
+  margin: 40vh -10vw 0 5vw;
+}
