@@ -1,5 +1,3 @@
-// Bind querySelector to be lazier
-//const $q = document.querySelector.bind(document);
 const gridContainer = document.querySelector('.grid-container');
 const resetButton = document.querySelector('.btn-reset');
 let gridSize = 16;
